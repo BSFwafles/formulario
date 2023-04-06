@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bostrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <form action="" method="post"></form>
+    <fieldset>
+        <legend>login</legend>
+
+
+        <label for="usuario"></label>
+        <input type="text" name="username" placeholder="ingrese su usuario"> <br>
+        <label for="contraseña"></label>
+        <input type="password" contraseña="usercontraseña" placeholder="ingrese su contraseña"><br>
+        <input type="submit" name="btnconectar" value="conectar"><br>
+        <input type="submit" value="enviar"><br>
+        <input type="reset" value="limpiar">
+        <button type="button" onclick="alerta()">boton</button>
+        <label for="opcion_usuario">elija su genero</label>
+        <select name="opcion_usuario" id="opcion">
+            <option value="1">Femenino</option>
+            <option value="2">Masculino</option>
+            <option value="3">Otre</option>
+
+        </select>
+
+
+
+    </fieldset>
+    <select name="alimento">
+        <option value="1">pan</option>
+        <option value="1">cebolla</option>
+        <option value="1">mani</option>
+        <option value="1">sandia</option>
+    </select>
+
+    <select name="alimento">
+        <optgroup label="lacteos"></optgroup>
+        <optgroup value="1">queso</optgroup>
+        <optgroup value="1">yogurt</optgroup>
+    </select>
+
+
+    </form>
+
+</body>
+<script>
+    function alerta() {
+        alert("hola soy un botoncito")
+    }
+</script>
+
+</html>
